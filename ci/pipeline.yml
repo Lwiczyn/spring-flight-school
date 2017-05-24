@@ -10,7 +10,5 @@ jobs:
   plan:
   - get: spring-flight-school
     trigger: true
-  - task: set-permissions
-    file: spring-flight-school/set-permissions.yml
   - task: tests
     file: spring-flight-school/build.yml
