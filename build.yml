@@ -10,4 +10,5 @@ inputs:
 - name: spring-flight-school
 
 run:
-  path: chmod +x ./spring-flight-school/ci/test.sh
+  path: chmod
+  args: [+x, ./spring-flight-school/ci/test.sh]
