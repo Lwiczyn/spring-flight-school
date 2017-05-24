@@ -9,6 +9,9 @@ image_resource:
 inputs:
 - name: spring-flight-school
 
+outputs:
+- name: built-jar
+
 run:
   path: mvn
   args: ["-f", "spring-flight-school/pom.xml", "clean", "package"]
