@@ -1,4 +1,4 @@
-platform: linux
+platform: windows
 
 image_resource:
   type: docker-image
